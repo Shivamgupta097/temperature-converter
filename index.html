@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Temperature Converter</title>
+</head>
+
+<body>
+  <!-- Main Heading -->
+  <header>
+    <p>Temperature Converter</p>
+  </header>
+
+  <!-- Main starts -->
+  <main>
+    <!-- Section starts -->
+    <section class="container">
+      <!-- User Input Holder starts -->
+      <div class="userSection holder">
+        <p class="secTitle">From</p>
+        <div class="userHolder">
+          <input type="number" id="userTemp" class="userTemp" placeholder="Your Temperature">
+          <select id="userTempSelector" class="userTempSelector">
+            <option value="celsius" selected="true">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+        
+        </div>
+      </div>
+      <!-- User Input Holder ends -->
+
+      <!-- Result Holder starts -->
+      <div class="resultSection holder">
+        <p class="secTitle">To</p>
+        <div class="resHolder">
+          <input type="text" id="resTemp" class="resTemp" placeholder="Result" readonly="true">
+          <select id="resTempSelector" class="resTempSelector">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit" selected="true">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+          
+        </div>
+      </div>
+      <!-- Result Holder ends -->
+
+
+      <!-- Trigger Button -->
+      <button class="triggerBtn">Convert</button>
+    </section>
+    <!-- Section ends -->
+  </main>
+
+  <!-- Main ends -->
+
+
+  <!-- Custom JS -->
+  <script src="./assets/js/script.js"></script>
+  <!-- Ion Icons CDN -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
+Footer
